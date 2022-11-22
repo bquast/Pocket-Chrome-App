@@ -1,0 +1,34 @@
+<!--
+
+With externalSite.html and externalSite.js we can show websites in the Packaged App within a new window. Just look at the sample code from below how to create a new window and inject an URL to load.
+Currently we use this to open the share windows for Twitter, Buffer and Facebook
+
+chrome.app.window.create("a/externalSite.html", {
+    bounds: {width: this.viewWidth, height: this.viewHeight}
+},
+function (win) {
+    win.contentWindow.URLToLoad = shareURL;
+});
+
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Pocket: Send to Friend</title>
+<style type="text/css">
+    #external-site-webview {
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+
+<script src="j/externalsite.min.js"></script>
+
+</head>
+<body>
+    <div id="external-site-container">
+        <webview id="external-site-webview" src=""></webview>
+    </div>
+</body>
+</html>

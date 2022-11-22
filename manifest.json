@@ -1,0 +1,27 @@
+{
+   "app": {
+      "background": {
+         "persistent": false,
+         "scripts": [ "main.js" ]
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "assets/icon-128.png",
+      "16": "assets/icon-16.png",
+      "48": "assets/icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbntCBXuuTmkS8kxhjMPDhwM5tpOQ8Q4e1KjWUdsgGBSkfvnNHEC2G31Zc1lIuGb9A3pASoVwGMvaWpnAfgmV0jaelWP+bQ+f/zqMoOZ8PMkiUnI7ooWJaS+fuScvISAUmGGNH+Ahcff4zpiB9VNdkuUlI2VyNneiIIf7pPmMu0wIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "23",
+   "name": "__MSG_appName__",
+   "oauth2": {
+      "client_id": "173409440056-7rbokvqnr4a4lcj4191qfepqpjl9lh3f.apps.googleusercontent.com",
+      "scopes": [ "profile email" ]
+   },
+   "offline_enabled": true,
+   "permissions": [ "http://img.readitlaterlist.com/*", "https://readitlaterlist.com/", "http://*/*", "https://*/*", "\u003Call_urls>", "storage", "fileSystem", "unlimitedStorage", "alarms", "webview", "identity" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.810"
+}
