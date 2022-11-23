@@ -5,10 +5,10 @@ Chrome / Chromium Pocket App for offline reading of articles on the desktop
 
 1. Download or clone this repo
 2. Open chrome / chromium settings
-3. Navigate to security
-4. Change from "standard" to "off"
-5. Open chrome://extensions
-6. Choose "Unpackaged install"
-7. Select the folder containing this repo
-8. Install
-9. Switch security back to "standard"
+3. Navigate to "Privacy and Security"
+4. Navigate to "Security"
+5. Change from "Standard Security" to "No Security"
+6. Open chrome://extensions
+7. Switch on "developer mode"
+8. Choose "Load unpacked"
+9. Select the folder containing this repo
